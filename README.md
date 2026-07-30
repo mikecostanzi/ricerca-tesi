@@ -1,17 +1,47 @@
 # ricerca-tesi
 risorse di ricerca per cve-2026-7228
-## Installazione virtual-box
+## Strumenti
 
-installazione di virtual-box: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+### Installazione virtual-box
 
-## Installazione iso windows 11
+installazione di virtual-box: https://www.virtualbox.org/wiki/Downloads
 
-[https://www.microsoft.com/it-it/software-download/windows11](https://www.microsoft.com/it-it/software-download/windows11)
+### Installazione iso windows 11
 
-## Installazione distro linux: lubuntu
+https://www.microsoft.com/it-it/software-download/windows11
 
-[https://lubuntu.me/downloads/](https://lubuntu.me/downloads/)
+### Installazione distro linux: lubuntu
 
-## Sito codice sorgente di Pizzafy E-Commerce
+https://lubuntu.me/downloads/
 
-[https://www.sourcecodester.com/php/18708/pizzafy-ecommerce-system.html](https://www.sourcecodester.com/php/18708/pizzafy-ecommerce-system.html)
+### Sito codice sorgente di Pizzafy E-Commerce
+
+https://www.sourcecodester.com/php/18708/pizzafy-ecommerce-system.html
+
+### Installazione xampp 
+1. installazione xampp 
+2. mysql e apache: start 
+3. utilizzo phpmyadmin ( http://localhost/phpmyadmin ) per creare il database **pizzafy** e importare dal codice sorgente al database locale il file **pizzafy.sql**.
+
+
+### Installazione Burp Suite ( oppure Postman )
+
+## Test
+
+### Link riferimenti
+
+cve vulnerabilità: https://nvd.nist.gov/vuln/detail/CVE-2026-7228
+
+github per exploit e soluzioni: https://github.com/fernando-mengali/vulndb-submissions.git
+
+### Sito nel server
+
+Estrarre il progetto di pizzafy e spostare la cartella in htdocs di apache su xampp 
+
+### URL di test
+
+sito pizzafy: http://localhost/pizzafy/Pizzafy/
+
+login amministratore: http://localhost/pizzafy/Pizzafy/admin/login.php
+
+Credenziali → Username: admin@gmail.com  Password: admin123
