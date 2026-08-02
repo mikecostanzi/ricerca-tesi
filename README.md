@@ -57,4 +57,4 @@ Primo con metodo GET :  [http://localhost/Pizzafy/pizzafy/view_prod.php?id=](ht
 
 ```
 #### Output:
-![[payload-version.png]]
+![payload-version](/immagini/output/payload-version.png)
