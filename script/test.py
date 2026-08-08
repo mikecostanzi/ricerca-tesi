@@ -64,4 +64,3 @@ for i in range(20):  # itera sulle righe
     print(f"    password : {password}")
     print(f"    email    : {email}")
     print()
-
