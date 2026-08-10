@@ -58,3 +58,21 @@ Primo con metodo GET :  [http://localhost/Pizzafy/pizzafy/view_prod.php?id=](ht
 ```
 #### Output:
 ![payload-version](/immagini/output/payload-version.png)
+
+## Exploit Test
+Linguaggio di programmazione: ==python==
+Libreria utilizzata: **request** `import request
+File di **exploit**: `/script/test.py`
+### Esecuzione file exploit
+Esecuzione di test.py
+**Output**:
+#### john the ripper
+Installazione di john the ripper per decriptare le password dal **hash value**.Per sistemi operativi come Kali il tool è già installato.
+**Salvare le/la password in un file txt**: hash.txt
+**Installazione del file rockyou.txt**: `git clone https://gitlab.com/kalilinux/packages/wordlists.git`
+`gunzip rockyou.txt.gz`
+**Tipologia di password criptata**: ==bcrypt==
+**Esecuzione del tool con il file wordlist**: `john --wordlist=rockyou.txt --format=bcrypt hash.txt`
+**Output**:
+![password-cracked](/immagini/output/password-cracked.png)
+**Password**: admin123
