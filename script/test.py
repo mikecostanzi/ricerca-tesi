@@ -11,7 +11,7 @@ def extract(payload):
     if match:
         return match.group(1)
     return None
-
+'''''
 def extract_long(payload_template, campo):
     """
     Gestisce valori lunghi >32 char usando SUBSTRING.
@@ -29,7 +29,7 @@ def extract_long(payload_template, campo):
             break  # ultimo pezzo, stringa finita
         offset += 25
     return result if result else None
-
+'''
 # ============================================================
 # Step 4 — Estrai i dati dalla tabella users
 # ============================================================
