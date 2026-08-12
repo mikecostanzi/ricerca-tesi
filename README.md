@@ -65,8 +65,10 @@ Libreria utilizzata: **request** `import request
 File di **exploit**: `/script/test.py`
 ### Esecuzione file exploit
 Esecuzione di test.py
+
 **Output**:
 ![output-exploit-test](/immagini/output/output-exploit-test.png)
+
 #### john the ripper
 Installazione di john the ripper per decriptare le password dal **hash value**.Per sistemi operativi come Kali il tool è già installato.
 **Salvare le/la password in un file txt**: hash.txt
@@ -74,6 +76,7 @@ Installazione di john the ripper per decriptare le password dal **hash value**.P
 `gunzip rockyou.txt.gz`
 **Tipologia di password criptata**: ==bcrypt==
 **Esecuzione del tool con il file wordlist**: `john --wordlist=rockyou.txt --format=bcrypt hash.txt`
+
 **Output**:
 ![password-cracked](/immagini/output/password-cracked.png)
 **Password**: admin123
