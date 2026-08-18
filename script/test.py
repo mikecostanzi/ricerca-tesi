@@ -2,7 +2,7 @@ import requests
 import re
 
 s = requests.Session()
-BASE_URL = 'http://localhost/Pizzafy/pizzafy/view_prod.php'
+BASE_URL = 'http://192.168.56.101/Pizzafy/pizzafy/view_prod.php'
 
 def extract(payload):
     """Invia il payload ed estrae il valore dall'errore XPATH"""
