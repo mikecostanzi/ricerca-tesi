@@ -99,13 +99,15 @@ Installazione di john the ripper per decriptare le password dal **hash value**.P
 1. **Aprire virtual-box e impostare un indirizzo ip attraverso only-host per la macchina virtuale di windows 11**
 	 - Andare su Impostazioni  -> Rete -> Scheda 1 -> Impostare Scheda solo host e poi digitare il nome dove è presente l'indirizzo ip 
 	 - Digitare Scheda 2 -> impostare NAT
+	
 	 ![set-host-only](immagini/set-host-only.png)
 
 	 ![set-nat](immagini/set-nat.png)
 	 
 
 2. **Avviare la macchina di Windows 11 e controllare se è stato impostato bene l'indirizzo ip**
-		Digitare: ipconfig
+	
+	Digitare: ipconfig
 	 
 	![controllo-ip](immagini/controllo-ip.png)
 
