@@ -82,5 +82,8 @@ Installazione di john the ripper per decriptare le password dal **hash value**.P
 **Esecuzione del tool con il file wordlist**: `john --wordlist=rockyou.txt --format=bcrypt hash.txt`
 
 **Output**:
+
 ![password-cracked](/immagini/output/password-cracked.png)
+
+
 **Password**: admin123
