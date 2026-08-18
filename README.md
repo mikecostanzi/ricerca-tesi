@@ -114,3 +114,11 @@ Installazione di john the ripper per decriptare le password dal **hash value**.P
 3. **Start Apache e MySQL**
 	![start-server-mysql-xampp](immagini/start-server-mysql-xampp.png)
 
+
+## Attacco
+1. **Avviare la macchina virtuale di kali o qualsiasi altra distro linux**
+2. **Creare un ambiente interprete di python**
+3. **Avviare il file *exploit.py* specificando nell'URL l'indirizzo ip della macchina che viene attaccata**
+```
+	python3 exploit.py
+```
