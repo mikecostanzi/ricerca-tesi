@@ -57,6 +57,8 @@ Primo con metodo GET :  [http://localhost/Pizzafy/pizzafy/view_prod.php?id=](ht
 
 ```
 #### Output:
+
+
 ![payload-version](/immagini/output/payload-version.png)
 
 ## Exploit Test
@@ -67,6 +69,8 @@ File di **exploit**: `/script/test.py`
 Esecuzione di test.py
 
 **Output**:
+
+
 ![output-exploit-test](/immagini/output/output-exploit-test.png)
 
 #### john the ripper
