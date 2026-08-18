@@ -64,7 +64,8 @@ Primo con metodo GET :  [http://localhost/Pizzafy/pizzafy/view_prod.php?id=](ht
 ## Exploit Test
 Linguaggio di programmazione: ==python==
 
-Libreria utilizzata: **request** `import request
+Libreria utilizzata: **request** `import request `
+
 File di **exploit**: `/script/test.py`
 
 ### Esecuzione file exploit
