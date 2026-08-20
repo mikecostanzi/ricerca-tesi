@@ -122,3 +122,14 @@ Installazione di john the ripper per decriptare le password dal **hash value**.P
 ```
 	python3 exploit.py
 ```
+
+## Codice
+### Codice vulnerabile
+**Aprire pizzafy/Pizzafy e trovare il file *view_prod.php* e trovare la seguente parte:**
+![codice-vulnerabile](immagini/codice/codice-vulnerabile.png)
+
+### Codice fixato 1
+![codice-fix-1](immagini/codice/codice-fix-1.png)
+
+### Codice fixato 2
+![codice-fix-2](immagini/codice/codice-fix-2.png)
